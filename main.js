@@ -7,7 +7,7 @@ const seanBeanMovies = [
   'Troy',
   'The Lord of The Rings: The Return of the King',
   'Equilibrium',
-  'The Lord of the Rings: The Two Towers',
+  'The Lord of The Rings: The Two Towers',
   'The Lord of The Rings: The Fellowship of the Ring',
   'Anna Karenina',
   'Goldeneye'
@@ -29,12 +29,15 @@ console.log('# Challenge #1');
 // Create a function that console.logs every item in the movie list. Now call that function.
 
 
+
 console.log('# Challenge #2');
 // Create a function that console.logs every item in the TV list. Now call that function.
 
 
+
 console.log('# Challenge #3');
 // There's an order to the array items, but only if you're a major tv or movie buff--or, like this project's author, a minor Sean Bean buff--would you notice; they're listed chronologically, newest first. Now write a function that consoles out the movies in oldest-first order, and call that function.
+
 
 
 console.log('# Challenge #4');
@@ -42,23 +45,26 @@ console.log('# Challenge #4');
 
 
 console.log('# Challenge #5');
-// Now that we know that our initial two functions don't just list the items, but list them in newest-first chronological order, change their names to give them as equally descriptive names as the ones you gave the oldest-first functions. (If you didn't give them descriptive names, do so now.)
+// Now that we know that our initial two functions don't just list the items, but list them in newest-first chronological order, change their names to give them as equally descriptive names as the ones you gave the oldest-first functions. (If you didn't give them descriptive names, do so now.) Then console out "Done!" below.
 
 
 console.log('# Challenge #6');
-// Write a function that, without any NEW loops, consoles out the movies list items individually followed by the tv list items individually, in chronological order of newest-first. What would you name such a beast? Got an idea? Then name it! And call it!
+// Write a function that, without any NEW loops, consoles out the movies list items individually followed by the tv list items individually, in chronological order of newest-first (not worrying about whether a movie is before a tv show!). What would you name such a beast? Got an idea? Then name it! And call it!
+
 
 
 console.log('# Challenge #7');
 // Do the same as above, but for oldest-first order.
 
 
+
 console.log('# Challenge #8');
 // Write a function that consoles out any movies in the Lord of the Rings series. Now call it!
 
 
+
 console.log('# Challenge #9');
-// Now write a function that consoles out the movies in alphabetical order, using Array.sort(). Be SURE that you make a COPY of the array before you do so, as otherwise your function will re-arrange the original array and you'll lose the chronological ordering!
+// Now write a function that consoles out the movies in alphabetical order, using Array.sort() (look up how to use it, but you shouldn't have to put anything in `.sort`'s parentheses!). Be SURE that you make a COPY of the array before you do so, as otherwise your function will re-arrange the original array and you'll lose the chronological ordering!
 
 
 
@@ -78,6 +84,8 @@ console.log('# Challenge #11');
 
 // Now call that function, followed by the alphabetical printing function. If you did it right, you'll change the titles to move "The" to the end, then print it in (better) alphabetical order.
 
+
+
 // Your result should be:
 
 // Anna Karenina
@@ -95,4 +103,5 @@ console.log('# Challenge #11');
 
 
 console.log('# Challenge #12');
-// Now call the first function you made. If you correctly didn't modify the original array, it should give you the same console results. If it does: congratulations! You're done!
+// Now call the first function you made. If you correctly didn't modify the original array, it should give you the same console results. If it does: congratulations! You did it! You're done!
+
