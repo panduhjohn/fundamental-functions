@@ -63,7 +63,7 @@ console.log('# Challenge #3');
 
 
 function oldMoviesFirst () {
-  for (i = seanBeanMovies.length-1; i >= 0; i--) {
+  for (i = seanBeanMovies.length - 1; i >= 0; i--) {
     console.log(seanBeanMovies[i]);
   }
 }
@@ -91,26 +91,35 @@ console.log(' ');
 console.log('# Challenge #6');
 // Write a function that, without any NEW loops, consoles out the movies list items individually followed by the tv list items individually, in chronological order of newest-first (not worrying about whether a movie is before a tv show!). What would you name such a beast? Got an idea? Then name it! And call it!
 
-seanMovieApp ();
-seanTvApp ();
+function funcInception () {
+  seanMovieApp();
+  seanTvApp();
 
+}
+
+funcInception()
 
 console.log(' ');
 console.log('# Challenge #7');
 // Do the same as above, but for oldest-first order.
 
-oldMoviesFirst();
-oldShowsFirst();
+function iCantThinkOfAGoodNameRightNow () {
+  oldMoviesFirst();
+  oldShowsFirst();
+
+}
+iCantThinkOfAGoodNameRightNow ();
 
 console.log(' ');
 console.log('# Challenge #8');
 // Write a function that consoles out any movies in the Lord of the Rings series. Now call it!
 
-// THIS FUNCTION IS NOT WORKING...
 
 function oneRingToGuideThem () {
-  if (seanBeanMovies[0] === 'The Lord of The Rings' && seanBeanMovies[i] > 11) {
-    console.log(seanBeanMovies);
+  for (i = 0; i < seanBeanMovies.length; i++) {
+    if (seanBeanMovies[i].startsWith('The Lord')) {
+      console.log(seanBeanMovies[i]);  
+    }
   }
 }
 
@@ -122,14 +131,25 @@ console.log('# Challenge #9');
 
 let something = [];
 
-function inAlphaOrder () {
-    seanBeanMovies.sort();
-    console.log(seanBeanMovies);
-    something.push(seanBeanMovies[i])
-  
+function whatever () {
+  for (i = 0; i < seanBeanMovies.length; i++) {
+    something.push(seanBeanMovies[i]);
+  }
+  something.sort();
+  console.log(something);
 }
 
-inAlphaOrder ();
+whatever ();
+
+// function inAlphaOrder () {
+//   let something = seanBeanMovies.slice(0);
+//     seanBeanMovies.sort();
+//     console.log(seanBeanMovies);
+//     something.push(seanBeanMovies[i])
+  
+// }
+
+// inAlphaOrder ();
 
 console.log(' ');
 console.log('# Challenge #10');
